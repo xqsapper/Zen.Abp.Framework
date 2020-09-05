@@ -1,0 +1,8 @@
+<service>
+	<id>@zenSrvName@</id>
+	<name>@zenSrvName@</name>
+	<description>@zenSrvDescription@</description>
+	<executable>@zenSrvExecutable@</executable>
+	<arguments>@zenSrvArguments@</arguments>
+	<logmode>reset</logmode>
+</service>

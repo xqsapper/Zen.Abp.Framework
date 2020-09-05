@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\common.props" />
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<Description>应用契约层公用模块，包含分页实体等</Description>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.Ddd.Application" Version="3.1.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Zen.Abp.Domain.Shared\Zen.Abp.Domain.Shared.csproj" />
+	</ItemGroup>
+
+</Project>
