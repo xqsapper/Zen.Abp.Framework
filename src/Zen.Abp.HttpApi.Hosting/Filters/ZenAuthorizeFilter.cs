@@ -49,15 +49,15 @@ namespace Zen.Abp.HttpApi.Hosting
             //token获取
             var accessToken = GetAccessToken(filterContext);
             _httpContextAccessor.HttpContext.Items[ZenSharedConstants.AccessToken] = accessToken;
+            //应用编码
+            var appCode = _zenService.GetAppCode().GetAwaiter().GetResult();
             //身份设置
-            var claimsIdentity = _zenService.GetClaimsIdentity(accessToken).GetAwaiter().GetResult();
+            var claimsIdentity = _zenService.GetClaimsIdentity(accessToken, appCode).GetAwaiter().GetResult();
             _currentPrincipalAccessor.Principal.AddIdentity(claimsIdentity);
             //权限校验
             var method = filterContext.HttpContext.Request.Method;
             var route = filterContext.ActionDescriptor.GetMethodInfo().GetCustomAttribute<RouteAttribute>();
             var templateUrl = route?.Template ?? string.Empty;
-
-            var appCode = _zenService.GetAppCode().GetAwaiter().GetResult();
             _zenService.CheckPermission(method, templateUrl, accessToken, appCode).GetAwaiter().GetResult();
         }
 

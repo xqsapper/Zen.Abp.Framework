@@ -16,8 +16,9 @@ namespace Zen.Abp.Application.Contracts
         ///     获取身份信息
         /// </summary>
         /// <param name="accessToken"></param>
+        /// <param name="appCode">应用编码</param>
         /// <returns></returns>
-        Task<ClaimsIdentity> GetClaimsIdentity(string accessToken);
+        Task<ClaimsIdentity> GetClaimsIdentity(string accessToken, string appCode);
 
         /// <summary>
         ///     检查权限
