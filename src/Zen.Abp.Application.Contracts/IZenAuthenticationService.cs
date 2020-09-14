@@ -30,4 +30,25 @@ namespace Zen.Abp.Application.Contracts
         /// <returns></returns>
         Task CheckPermission(string requestMethod, string requestRoute, string accessToken, string appCode);
     }
+
+    /// <summary>
+    /// 空的授权服务
+    /// </summary>
+    public class ZenNullAuthenticationService : IZenAuthenticationService
+    {
+        public Task CheckPermission(string requestMethod, string requestRoute, string accessToken, string appCode)
+        {
+            return Task.CompletedTask;
+        }
+
+        public Task<string> GetAppCode()
+        {
+            return Task.FromResult(string.Empty);
+        }
+
+        public Task<ClaimsIdentity> GetClaimsIdentity(string accessToken, string appCode)
+        {
+            return Task.FromResult(new ClaimsIdentity());
+        }
+    }
 }

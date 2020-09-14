@@ -1,0 +1,677 @@
+2020-09-14 09:00:29.433 +08:00 [INF] Starting web host.
+2020-09-14 09:00:34.228 +08:00 [INF] User profile is available. Using 'C:\Users\zen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-14 09:00:34.323 +08:00 [INF] Loaded ABP modules:
+2020-09-14 09:00:34.323 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-14 09:00:34.323 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-14 09:00:34.323 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-14 09:00:34.323 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-14 09:00:34.323 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-14 09:00:34.323 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-14 09:00:34.323 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-14 09:00:34.323 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-14 09:00:34.323 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-14 09:00:34.324 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-14 09:00:34.325 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-14 09:00:34.325 +08:00 [INF] - Zen.Abp.HttpApi.Hosting.ZenAbpHostingModule
+2020-09-14 09:00:34.325 +08:00 [INF] - Zen.Abp.Framework.Test.TestHostingModule
+2020-09-14 09:00:35.519 +08:00 [INF] Initialized all ABP modules.
+2020-09-14 09:00:35.553 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-14 09:00:35.553 +08:00 [INF] Hosting environment: Development
+2020-09-14 09:00:35.553 +08:00 [INF] Content root path: D:\源码学习\Zen.Abp.Framework\test\Zen.Abp.Framework.Test
+2020-09-14 09:00:35.658 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/  
+2020-09-14 09:00:35.806 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/index.html  
+2020-09-14 09:00:35.828 +08:00 [INF] Request finished in 167.1324ms 302 
+2020-09-14 09:00:36.031 +08:00 [INF] Request finished in 226.3067ms 200 text/html; charset=utf-8
+2020-09-14 09:00:36.075 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/swagger-ui.css  
+2020-09-14 09:00:36.075 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/swagger-ui-bundle.js  
+2020-09-14 09:00:36.076 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/swagger-ui-standalone-preset.js  
+2020-09-14 09:00:36.175 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-09-14 09:00:36.175 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-09-14 09:00:36.175 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-09-14 09:00:36.183 +08:00 [INF] Request finished in 106.9643ms 200 application/javascript
+2020-09-14 09:00:36.183 +08:00 [INF] Request finished in 107.6451ms 200 text/css
+2020-09-14 09:00:36.183 +08:00 [INF] Request finished in 107.7139ms 200 application/javascript
+2020-09-14 09:00:36.456 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/v1/swagger.json  
+2020-09-14 09:00:36.513 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/favicon-32x32.png  
+2020-09-14 09:00:36.516 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2020-09-14 09:00:36.533 +08:00 [INF] Request finished in 20.1435ms 200 image/png
+2020-09-14 09:00:37.025 +08:00 [INF] Request finished in 569.953ms 200 application/json; charset=utf-8
+2020-09-14 09:01:38.147 +08:00 [INF] Starting web host.
+2020-09-14 09:01:38.763 +08:00 [INF] User profile is available. Using 'C:\Users\zen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-14 09:01:38.833 +08:00 [INF] Loaded ABP modules:
+2020-09-14 09:01:38.833 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-14 09:01:38.833 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-14 09:01:38.833 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-14 09:01:38.833 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-14 09:01:38.833 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-14 09:01:38.833 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-14 09:01:38.833 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-14 09:01:38.833 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-14 09:01:38.833 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-14 09:01:38.833 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-14 09:01:38.833 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-14 09:01:38.833 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-14 09:01:38.834 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-14 09:01:38.835 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-14 09:01:38.835 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-14 09:01:38.835 +08:00 [INF] - Zen.Abp.HttpApi.Hosting.ZenAbpHostingModule
+2020-09-14 09:01:38.835 +08:00 [INF] - Zen.Abp.Framework.Test.TestHostingModule
+2020-09-14 09:01:39.188 +08:00 [INF] Initialized all ABP modules.
+2020-09-14 09:01:39.213 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-14 09:01:39.214 +08:00 [INF] Hosting environment: Development
+2020-09-14 09:01:39.214 +08:00 [INF] Content root path: D:\源码学习\Zen.Abp.Framework\test\Zen.Abp.Framework.Test
+2020-09-14 09:01:39.233 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/  
+2020-09-14 09:01:39.314 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/index.html  
+2020-09-14 09:01:39.315 +08:00 [INF] Request finished in 83.7398ms 302 
+2020-09-14 09:01:39.424 +08:00 [INF] Request finished in 109.4155ms 200 text/html; charset=utf-8
+2020-09-14 09:01:39.761 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/v1/swagger.json  
+2020-09-14 09:01:40.225 +08:00 [INF] Request finished in 463.9804ms 200 application/json; charset=utf-8
+2020-09-14 09:02:43.793 +08:00 [INF] Starting web host.
+2020-09-14 09:02:44.365 +08:00 [INF] User profile is available. Using 'C:\Users\zen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-14 09:02:44.444 +08:00 [INF] Loaded ABP modules:
+2020-09-14 09:02:44.444 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-14 09:02:44.444 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-14 09:02:44.444 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-14 09:02:44.444 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-14 09:02:44.444 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-14 09:02:44.444 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-14 09:02:44.444 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-14 09:02:44.444 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-14 09:02:44.444 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-14 09:02:44.445 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-14 09:02:44.446 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-14 09:02:44.446 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-14 09:02:44.446 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-14 09:02:44.446 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-14 09:02:44.446 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-14 09:02:44.446 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-14 09:02:44.446 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-14 09:02:44.446 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-14 09:02:44.446 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-14 09:02:44.446 +08:00 [INF] - Zen.Abp.HttpApi.Hosting.ZenAbpHostingModule
+2020-09-14 09:02:44.446 +08:00 [INF] - Zen.Abp.Framework.Test.TestHostingModule
+2020-09-14 09:02:44.808 +08:00 [INF] Initialized all ABP modules.
+2020-09-14 09:02:44.853 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-14 09:02:44.853 +08:00 [INF] Hosting environment: Development
+2020-09-14 09:02:44.853 +08:00 [INF] Content root path: D:\源码学习\Zen.Abp.Framework\test\Zen.Abp.Framework.Test
+2020-09-14 09:02:44.881 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/  
+2020-09-14 09:02:44.992 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/index.html  
+2020-09-14 09:02:44.992 +08:00 [INF] Request finished in 114.514ms 302 
+2020-09-14 09:02:45.097 +08:00 [INF] Request finished in 105.2749ms 200 text/html; charset=utf-8
+2020-09-14 09:02:45.286 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/v1/swagger.json  
+2020-09-14 09:02:45.696 +08:00 [INF] Request finished in 409.8992ms 200 application/json; charset=utf-8
+2020-09-14 09:02:53.269 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/bbs/v1/test?number=4444  
+2020-09-14 09:02:53.274 +08:00 [INF] Executing endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 09:02:53.365 +08:00 [INF] Executed endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 09:02:53.370 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Zen.Abp.Application.Contracts.IZenAuthenticationService' while attempting to activate 'Zen.Abp.HttpApi.Hosting.ZenAuthorizeFilter'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location where exception was thrown ---
+   at Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Volo.Abp.AspNetCore.Auditing.AbpAuditingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Volo.Abp.AspNetCore.Auditing.AbpAuditingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-14 09:02:53.404 +08:00 [INF] Request finished in 134.7986ms 500 text/plain
+2020-09-14 09:06:12.948 +08:00 [INF] Starting web host.
+2020-09-14 09:06:16.113 +08:00 [INF] User profile is available. Using 'C:\Users\zen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-14 09:06:16.205 +08:00 [INF] Loaded ABP modules:
+2020-09-14 09:06:16.205 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-14 09:06:16.205 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-14 09:06:16.205 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-14 09:06:16.205 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-14 09:06:16.205 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-14 09:06:16.205 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-14 09:06:16.205 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-14 09:06:16.205 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-14 09:06:16.205 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-14 09:06:16.205 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-14 09:06:16.206 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-14 09:06:16.206 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-14 09:06:16.206 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-14 09:06:16.206 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-14 09:06:16.206 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-14 09:06:16.206 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-14 09:06:16.206 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-14 09:06:16.206 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-14 09:06:16.206 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-14 09:06:16.206 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-14 09:06:16.206 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-14 09:06:16.206 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-14 09:06:16.206 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-14 09:06:16.206 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-14 09:06:16.206 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-14 09:06:16.207 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-14 09:06:16.207 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-14 09:06:16.207 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-14 09:06:16.207 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-14 09:06:16.207 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-14 09:06:16.207 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-14 09:06:16.207 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-14 09:06:16.207 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-14 09:06:16.207 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-14 09:06:16.207 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-14 09:06:16.207 +08:00 [INF] - Zen.Abp.HttpApi.Hosting.ZenAbpHostingModule
+2020-09-14 09:06:16.207 +08:00 [INF] - Zen.Abp.Framework.Test.TestHostingModule
+2020-09-14 09:06:16.678 +08:00 [INF] Initialized all ABP modules.
+2020-09-14 09:06:16.713 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-14 09:06:16.713 +08:00 [INF] Hosting environment: Development
+2020-09-14 09:06:16.713 +08:00 [INF] Content root path: D:\源码学习\Zen.Abp.Framework\test\Zen.Abp.Framework.Test
+2020-09-14 09:06:16.786 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/  
+2020-09-14 09:06:16.900 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/index.html  
+2020-09-14 09:06:16.910 +08:00 [INF] Request finished in 117.8833ms 302 
+2020-09-14 09:06:17.084 +08:00 [INF] Request finished in 184.3294ms 200 text/html; charset=utf-8
+2020-09-14 09:06:17.254 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/v1/swagger.json  
+2020-09-14 09:06:17.725 +08:00 [INF] Request finished in 471.0387ms 200 application/json; charset=utf-8
+2020-09-14 09:06:26.136 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/bbs/v1/test?number=4444  
+2020-09-14 09:06:26.143 +08:00 [INF] Executing endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 09:06:26.264 +08:00 [INF] Executed endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 09:06:26.269 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Zen.Abp.Application.Contracts.IZenAuthenticationService' while attempting to activate 'Zen.Abp.HttpApi.Hosting.ZenAuthorizeFilter'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location where exception was thrown ---
+   at Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Volo.Abp.AspNetCore.Auditing.AbpAuditingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Volo.Abp.AspNetCore.Auditing.AbpAuditingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-14 09:06:26.308 +08:00 [INF] Request finished in 172.8534ms 500 text/plain
+2020-09-14 09:06:31.674 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/  
+2020-09-14 09:06:31.682 +08:00 [INF] Request finished in 7.7778ms 302 
+2020-09-14 09:06:31.722 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/index.html  
+2020-09-14 09:06:31.726 +08:00 [INF] Request finished in 4.3408ms 200 text/html; charset=utf-8
+2020-09-14 09:06:32.935 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/v1/swagger.json  
+2020-09-14 09:06:32.939 +08:00 [INF] Request finished in 4.7094ms 200 application/json; charset=utf-8
+2020-09-14 09:08:05.789 +08:00 [INF] Starting web host.
+2020-09-14 09:08:08.210 +08:00 [INF] User profile is available. Using 'C:\Users\zen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-14 09:08:08.288 +08:00 [INF] Loaded ABP modules:
+2020-09-14 09:08:08.288 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-14 09:08:08.288 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-14 09:08:08.288 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-14 09:08:08.288 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-14 09:08:08.288 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-14 09:08:08.288 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-14 09:08:08.288 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-14 09:08:08.288 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-14 09:08:08.288 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-14 09:08:08.288 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-14 09:08:08.288 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-14 09:08:08.288 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-14 09:08:08.288 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-14 09:08:08.288 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-14 09:08:08.289 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-14 09:08:08.290 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-14 09:08:08.290 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-14 09:08:08.290 +08:00 [INF] - Zen.Abp.HttpApi.Hosting.ZenAbpHostingModule
+2020-09-14 09:08:08.290 +08:00 [INF] - Zen.Abp.Framework.Test.TestHostingModule
+2020-09-14 09:08:08.759 +08:00 [INF] Initialized all ABP modules.
+2020-09-14 09:08:08.794 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-14 09:08:08.794 +08:00 [INF] Hosting environment: Development
+2020-09-14 09:08:08.794 +08:00 [INF] Content root path: D:\源码学习\Zen.Abp.Framework\test\Zen.Abp.Framework.Test
+2020-09-14 09:08:08.883 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/  
+2020-09-14 09:08:08.989 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/index.html  
+2020-09-14 09:08:09.006 +08:00 [INF] Request finished in 110.6947ms 302 
+2020-09-14 09:08:09.163 +08:00 [INF] Request finished in 174.113ms 200 text/html; charset=utf-8
+2020-09-14 09:08:09.377 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/v1/swagger.json  
+2020-09-14 09:08:09.987 +08:00 [INF] Request finished in 610.8797ms 200 application/json; charset=utf-8
+2020-09-14 09:08:17.389 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/bbs/v1/test?number=555  
+2020-09-14 09:08:17.394 +08:00 [INF] Executing endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 09:08:30.302 +08:00 [INF] Route matched with {action = "Test", controller = "Test", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Test(System.Guid) on controller Zen.Abp.Framework.Test.Controllers.TestController (Zen.Abp.Framework.Test).
+2020-09-14 09:08:30.382 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-09-14 09:08:30.424 +08:00 [INF] Executed action Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test) in 113.8423ms
+2020-09-14 09:08:30.428 +08:00 [INF] Executed endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 09:08:30.428 +08:00 [INF] Request finished in 13041.0191ms 400 application/problem+json; charset=utf-8
+2020-09-14 13:36:46.958 +08:00 [INF] Starting web host.
+2020-09-14 13:36:55.751 +08:00 [INF] User profile is available. Using 'C:\Users\zen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-14 13:36:55.913 +08:00 [INF] Loaded ABP modules:
+2020-09-14 13:36:55.913 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-14 13:36:55.914 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-14 13:36:55.915 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-14 13:36:55.915 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-14 13:36:55.915 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-14 13:36:55.915 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-14 13:36:55.915 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-14 13:36:55.915 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-14 13:36:55.915 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-14 13:36:55.915 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-14 13:36:55.915 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-14 13:36:55.915 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-14 13:36:55.915 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-14 13:36:55.915 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-14 13:36:55.915 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-14 13:36:55.916 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-14 13:36:55.916 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-14 13:36:55.916 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-14 13:36:55.916 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-14 13:36:55.916 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-14 13:36:55.916 +08:00 [INF] - Zen.Abp.HttpApi.Hosting.ZenAbpHostingModule
+2020-09-14 13:36:55.916 +08:00 [INF] - Zen.Abp.Framework.Test.TestHostingModule
+2020-09-14 13:36:57.895 +08:00 [INF] Initialized all ABP modules.
+2020-09-14 13:36:57.946 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-14 13:36:57.946 +08:00 [INF] Hosting environment: Development
+2020-09-14 13:36:57.946 +08:00 [INF] Content root path: D:\源码学习\Zen.Abp.Framework\test\Zen.Abp.Framework.Test
+2020-09-14 13:36:58.062 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/  
+2020-09-14 13:36:58.203 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/index.html  
+2020-09-14 13:36:58.235 +08:00 [INF] Request finished in 144.684ms 302 
+2020-09-14 13:36:58.442 +08:00 [INF] Request finished in 238.8677ms 200 text/html; charset=utf-8
+2020-09-14 13:36:58.769 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/v1/swagger.json  
+2020-09-14 13:36:59.497 +08:00 [INF] Request finished in 729.5249ms 200 application/json; charset=utf-8
+2020-09-14 13:37:07.534 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/bbs/v1/test?number=555  
+2020-09-14 13:37:07.538 +08:00 [INF] Executing endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 13:37:07.669 +08:00 [INF] Route matched with {action = "Test", controller = "Test", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Test(System.Guid) on controller Zen.Abp.Framework.Test.Controllers.TestController (Zen.Abp.Framework.Test).
+2020-09-14 13:37:07.699 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-09-14 13:37:07.747 +08:00 [INF] Executed action Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test) in 70.7943ms
+2020-09-14 13:37:07.751 +08:00 [INF] Executed endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 13:37:07.751 +08:00 [INF] Request finished in 217.027ms 400 application/problem+json; charset=utf-8
+2020-09-14 13:37:51.277 +08:00 [INF] Starting web host.
+2020-09-14 13:37:56.189 +08:00 [INF] User profile is available. Using 'C:\Users\zen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-14 13:37:56.321 +08:00 [INF] Loaded ABP modules:
+2020-09-14 13:37:56.321 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-14 13:37:56.321 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-14 13:37:56.322 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-14 13:37:56.322 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-14 13:37:56.322 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-14 13:37:56.322 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-14 13:37:56.322 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-14 13:37:56.322 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-14 13:37:56.322 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-14 13:37:56.322 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-14 13:37:56.322 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-14 13:37:56.322 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-14 13:37:56.322 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-14 13:37:56.322 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-14 13:37:56.323 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-14 13:37:56.324 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-14 13:37:56.324 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-14 13:37:56.324 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-14 13:37:56.324 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-14 13:37:56.324 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-14 13:37:56.324 +08:00 [INF] - Zen.Abp.HttpApi.Hosting.ZenAbpHostingModule
+2020-09-14 13:37:56.324 +08:00 [INF] - Zen.Abp.Framework.Test.TestHostingModule
+2020-09-14 13:37:57.039 +08:00 [INF] Initialized all ABP modules.
+2020-09-14 13:37:57.085 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-14 13:37:57.085 +08:00 [INF] Hosting environment: Development
+2020-09-14 13:37:57.085 +08:00 [INF] Content root path: D:\源码学习\Zen.Abp.Framework\test\Zen.Abp.Framework.Test
+2020-09-14 13:37:57.198 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/  
+2020-09-14 13:37:57.340 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/index.html  
+2020-09-14 13:37:57.372 +08:00 [INF] Request finished in 159.2732ms 302 
+2020-09-14 13:37:57.595 +08:00 [INF] Request finished in 266.3364ms 200 text/html; charset=utf-8
+2020-09-14 13:37:57.868 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/v1/swagger.json  
+2020-09-14 13:37:58.675 +08:00 [INF] Request finished in 807.988ms 200 application/json; charset=utf-8
+2020-09-14 13:38:09.768 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/bbs/v1/test?number=666  
+2020-09-14 13:38:09.773 +08:00 [INF] Executing endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 13:38:09.886 +08:00 [INF] Route matched with {action = "Test", controller = "Test", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Test(System.Guid) on controller Zen.Abp.Framework.Test.Controllers.TestController (Zen.Abp.Framework.Test).
+2020-09-14 13:38:09.915 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-09-14 13:38:09.951 +08:00 [INF] Executed action Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test) in 56.5655ms
+2020-09-14 13:38:09.955 +08:00 [INF] Executed endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 13:38:09.955 +08:00 [INF] Request finished in 187.2947ms 400 application/problem+json; charset=utf-8
+2020-09-14 13:39:18.918 +08:00 [INF] Starting web host.
+2020-09-14 13:39:23.691 +08:00 [INF] User profile is available. Using 'C:\Users\zen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-14 13:39:23.816 +08:00 [INF] Loaded ABP modules:
+2020-09-14 13:39:23.816 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-14 13:39:23.817 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-14 13:39:23.818 +08:00 [INF] - Zen.Abp.HttpApi.Hosting.ZenAbpHostingModule
+2020-09-14 13:39:23.819 +08:00 [INF] - Zen.Abp.Framework.Test.TestHostingModule
+2020-09-14 13:39:24.479 +08:00 [INF] Initialized all ABP modules.
+2020-09-14 13:39:24.524 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-14 13:39:24.524 +08:00 [INF] Hosting environment: Development
+2020-09-14 13:39:24.525 +08:00 [INF] Content root path: D:\源码学习\Zen.Abp.Framework\test\Zen.Abp.Framework.Test
+2020-09-14 13:39:24.649 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/  
+2020-09-14 13:39:24.649 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/bbs/v1/test?number=666  
+2020-09-14 13:39:24.744 +08:00 [INF] Executing endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 13:39:24.783 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/index.html  
+2020-09-14 13:39:24.816 +08:00 [INF] Request finished in 163.5004ms 302 
+2020-09-14 13:39:24.991 +08:00 [INF] Route matched with {action = "Test", controller = "Test", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Test(System.Guid) on controller Zen.Abp.Framework.Test.Controllers.TestController (Zen.Abp.Framework.Test).
+2020-09-14 13:39:25.031 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-09-14 13:39:25.041 +08:00 [INF] Request finished in 257.1738ms 200 text/html; charset=utf-8
+2020-09-14 13:39:25.103 +08:00 [INF] Executed action Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test) in 102.1867ms
+2020-09-14 13:39:25.107 +08:00 [INF] Executed endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 13:39:25.110 +08:00 [INF] Request finished in 465.0673ms 400 application/problem+json; charset=utf-8
+2020-09-14 13:39:25.922 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/v1/swagger.json  
+2020-09-14 13:39:26.702 +08:00 [INF] Request finished in 781.1426ms 200 application/json; charset=utf-8
+2020-09-14 13:39:58.931 +08:00 [INF] Starting web host.
+2020-09-14 13:40:02.794 +08:00 [INF] User profile is available. Using 'C:\Users\zen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-14 13:40:02.924 +08:00 [INF] Loaded ABP modules:
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-14 13:40:02.925 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-14 13:40:02.926 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-14 13:40:02.927 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-14 13:40:02.927 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-14 13:40:02.927 +08:00 [INF] - Zen.Abp.HttpApi.Hosting.ZenAbpHostingModule
+2020-09-14 13:40:02.927 +08:00 [INF] - Zen.Abp.Framework.Test.TestHostingModule
+2020-09-14 13:40:03.976 +08:00 [INF] Initialized all ABP modules.
+2020-09-14 13:40:04.037 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-14 13:40:04.038 +08:00 [INF] Hosting environment: Development
+2020-09-14 13:40:04.038 +08:00 [INF] Content root path: D:\源码学习\Zen.Abp.Framework\test\Zen.Abp.Framework.Test
+2020-09-14 13:40:04.196 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/  
+2020-09-14 13:40:04.466 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/index.html  
+2020-09-14 13:40:04.500 +08:00 [INF] Request finished in 289.1707ms 302 
+2020-09-14 13:40:04.720 +08:00 [INF] Request finished in 263.0828ms 200 text/html; charset=utf-8
+2020-09-14 13:40:05.920 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/v1/swagger.json  
+2020-09-14 13:40:06.510 +08:00 [INF] Request finished in 591.223ms 200 application/json; charset=utf-8
+2020-09-14 13:40:09.064 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/bbs/v1/test?number=777  
+2020-09-14 13:40:09.070 +08:00 [INF] Executing endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 13:40:09.237 +08:00 [INF] Route matched with {action = "Test", controller = "Test", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Test(System.Guid) on controller Zen.Abp.Framework.Test.Controllers.TestController (Zen.Abp.Framework.Test).
+2020-09-14 13:40:09.274 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-09-14 13:40:09.318 +08:00 [INF] Executed action Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test) in 73.4428ms
+2020-09-14 13:40:09.322 +08:00 [INF] Executed endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 13:40:09.323 +08:00 [INF] Request finished in 259.3084ms 400 application/problem+json; charset=utf-8
+2020-09-14 13:46:16.281 +08:00 [INF] Starting web host.
+2020-09-14 13:46:22.271 +08:00 [INF] User profile is available. Using 'C:\Users\zen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-14 13:46:22.425 +08:00 [INF] Loaded ABP modules:
+2020-09-14 13:46:22.425 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-14 13:46:22.426 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-14 13:46:22.426 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-14 13:46:22.426 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-14 13:46:22.426 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-14 13:46:22.426 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-14 13:46:22.427 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-14 13:46:22.427 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-14 13:46:22.427 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-14 13:46:22.427 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-14 13:46:22.427 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-14 13:46:22.427 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-14 13:46:22.427 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-14 13:46:22.427 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-14 13:46:22.427 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-14 13:46:22.427 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-14 13:46:22.427 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-14 13:46:22.427 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-14 13:46:22.428 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-14 13:46:22.428 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-14 13:46:22.429 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-14 13:46:22.429 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-14 13:46:22.429 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-14 13:46:22.429 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-14 13:46:22.429 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-14 13:46:22.429 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-14 13:46:22.429 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-14 13:46:22.429 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-14 13:46:22.429 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-14 13:46:22.429 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-14 13:46:22.429 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-14 13:46:22.429 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-14 13:46:22.429 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-14 13:46:22.430 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-14 13:46:22.430 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-14 13:46:22.430 +08:00 [INF] - Zen.Abp.HttpApi.Hosting.ZenAbpHostingModule
+2020-09-14 13:46:22.430 +08:00 [INF] - Zen.Abp.Framework.Test.TestHostingModule
+2020-09-14 13:46:24.069 +08:00 [INF] Initialized all ABP modules.
+2020-09-14 13:46:24.114 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-14 13:46:24.114 +08:00 [INF] Hosting environment: Development
+2020-09-14 13:46:24.114 +08:00 [INF] Content root path: D:\源码学习\Zen.Abp.Framework\test\Zen.Abp.Framework.Test
+2020-09-14 13:46:24.218 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/  
+2020-09-14 13:46:24.352 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/index.html  
+2020-09-14 13:46:24.363 +08:00 [INF] Request finished in 137.0515ms 302 
+2020-09-14 13:46:24.571 +08:00 [INF] Request finished in 219.5243ms 200 text/html; charset=utf-8
+2020-09-14 13:46:25.916 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/v1/swagger.json  
+2020-09-14 13:46:26.491 +08:00 [INF] Request finished in 574.9333ms 200 application/json; charset=utf-8
+2020-09-14 13:46:28.945 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/bbs/v1/test?number=iii  
+2020-09-14 13:46:28.949 +08:00 [INF] Executing endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 13:46:29.061 +08:00 [INF] Route matched with {action = "Test", controller = "Test", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Test(System.Guid) on controller Zen.Abp.Framework.Test.Controllers.TestController (Zen.Abp.Framework.Test).
+2020-09-14 13:46:29.091 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-09-14 13:46:29.125 +08:00 [INF] Executed action Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test) in 57.9596ms
+2020-09-14 13:46:29.128 +08:00 [INF] Executed endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 13:46:29.128 +08:00 [INF] Request finished in 183.1877ms 400 application/problem+json; charset=utf-8
+2020-09-14 13:57:38.424 +08:00 [INF] Starting web host.
+2020-09-14 13:57:42.035 +08:00 [INF] User profile is available. Using 'C:\Users\zen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-14 13:57:42.184 +08:00 [INF] Loaded ABP modules:
+2020-09-14 13:57:42.184 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-14 13:57:42.184 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-14 13:57:42.184 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-14 13:57:42.184 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-14 13:57:42.184 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-14 13:57:42.184 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-14 13:57:42.184 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-14 13:57:42.184 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-14 13:57:42.184 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-14 13:57:42.184 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-14 13:57:42.184 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-14 13:57:42.185 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-14 13:57:42.185 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-14 13:57:42.185 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-14 13:57:42.185 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-14 13:57:42.185 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-14 13:57:42.185 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-14 13:57:42.185 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-14 13:57:42.185 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-14 13:57:42.185 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-14 13:57:42.185 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-14 13:57:42.185 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-14 13:57:42.185 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-14 13:57:42.186 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-14 13:57:42.186 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-14 13:57:42.186 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-14 13:57:42.186 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-14 13:57:42.186 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-14 13:57:42.186 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-14 13:57:42.186 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-14 13:57:42.186 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-14 13:57:42.186 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-14 13:57:42.186 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-14 13:57:42.186 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-14 13:57:42.186 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-14 13:57:42.186 +08:00 [INF] - Zen.Abp.HttpApi.Hosting.ZenAbpHostingModule
+2020-09-14 13:57:42.186 +08:00 [INF] - Zen.Abp.Framework.Test.TestHostingModule
+2020-09-14 13:57:42.886 +08:00 [INF] Initialized all ABP modules.
+2020-09-14 13:57:42.932 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-14 13:57:42.932 +08:00 [INF] Hosting environment: Development
+2020-09-14 13:57:42.932 +08:00 [INF] Content root path: D:\源码学习\Zen.Abp.Framework\test\Zen.Abp.Framework.Test
+2020-09-14 13:57:43.051 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/  
+2020-09-14 13:57:43.172 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/index.html  
+2020-09-14 13:57:43.182 +08:00 [INF] Request finished in 123.6207ms 302 
+2020-09-14 13:57:43.378 +08:00 [INF] Request finished in 206.7567ms 200 text/html; charset=utf-8
+2020-09-14 13:57:43.591 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/swagger/v1/swagger.json  
+2020-09-14 13:57:44.231 +08:00 [INF] Request finished in 639.8571ms 200 application/json; charset=utf-8
+2020-09-14 13:57:50.540 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:12796/bbs/v1/test?number=66  
+2020-09-14 13:57:50.548 +08:00 [INF] Executing endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 13:57:50.649 +08:00 [INF] Route matched with {action = "Test", controller = "Test", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Test(System.Guid) on controller Zen.Abp.Framework.Test.Controllers.TestController (Zen.Abp.Framework.Test).
+2020-09-14 13:57:50.680 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-09-14 13:57:50.712 +08:00 [INF] Executed action Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test) in 57.4345ms
+2020-09-14 13:57:50.714 +08:00 [INF] Executed endpoint 'Zen.Abp.Framework.Test.Controllers.TestController.Test (Zen.Abp.Framework.Test)'
+2020-09-14 13:57:50.714 +08:00 [INF] Request finished in 174.5014ms 400 application/problem+json; charset=utf-8

@@ -24,9 +24,9 @@
 	  </EmbeddedResource>
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="NSwag.AspNetCore" Version="13.7.0" />
-		<PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="3.1.0" />
-		<PackageReference Include="Volo.Abp.Autofac" Version="3.1.0" />
+		<PackageReference Include="NSwag.AspNetCore" Version="13.7.1" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="3.1.2" />
+		<PackageReference Include="Volo.Abp.Autofac" Version="3.1.2" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\Zen.Abp.Application.Contracts\Zen.Abp.Application.Contracts.csproj" />
