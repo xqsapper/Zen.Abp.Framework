@@ -30,7 +30,7 @@ namespace Zen.Abp.HttpApi.Hosting
                     document.Info.Contact = new OpenApiContact
                     {
                         Name = "zen-arch",
-                        Email = "developer@zen-arch.com.cn"
+                        Email = "win8x@qq.com"
                     };
 
                     document.SecurityDefinitions.Add(tokenType, new OpenApiSecurityScheme
