@@ -32,7 +32,7 @@ namespace Zen.Abp.Application.Contracts
     }
 
     /// <summary>
-    /// 空的授权服务
+    ///     空的授权服务
     /// </summary>
     public class ZenNullAuthenticationService : IZenAuthenticationService
     {

@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System.Collections.Generic;
-using System.Linq;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.Mvc;
 using Volo.Abp.AspNetCore.Mvc.Auditing;
@@ -26,7 +26,7 @@ namespace Zen.Abp.Framework.Test
         {
             var configuration = context.Services.GetConfiguration();
             context.Services.AddZenNSwag("TestService", "测试服务");
-          
+
             //context.Services.AddAuthorization();
             Configure<MvcOptions>(options =>
             {
@@ -38,7 +38,6 @@ namespace Zen.Abp.Framework.Test
                 options.Filters.Add(typeof(ZenAuthorizeFilter));
                 // 审计日志过滤器
                 options.Filters.Add(typeof(ZenAuditActionFilter));
-
             });
             context.Services.AddCors(options =>
             {

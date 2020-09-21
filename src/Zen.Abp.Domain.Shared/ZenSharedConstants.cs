@@ -8,6 +8,8 @@ namespace Zen.Abp.Domain.Shared
         public const string AccessToken = "access_token";
         public const string NickNameClaim = "nick_name";
         public const string OwnerIdClaim = "owner_id";
+        public const string OrgIdClaim = "org_id";
+        public const string OrgNameClaim = "org_name";
 
         /// <summary>
         ///     默认缺省时间

@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using NSwag.Annotations;
-using System;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using NSwag.Annotations;
 using Volo.Abp.AspNetCore.Mvc;
 
 namespace Zen.Abp.Framework.Test.Controllers
@@ -12,9 +12,8 @@ namespace Zen.Abp.Framework.Test.Controllers
     [OpenApiTag("test", Description = "测试相关接口")]
     public class TestController : AbpController
     {
-
         /// <summary>
-        /// 测试接口
+        ///     测试接口
         /// </summary>
         /// <param name="number"></param>
         /// <returns></returns>
